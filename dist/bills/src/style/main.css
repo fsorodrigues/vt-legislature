@@ -1,0 +1,89 @@
+body {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+}
+
+/*** NAV BAR ***/
+.header-container {
+    background-color: gainsboro;
+    /* margin: 0 0 3rem 0; */
+}
+
+/*** BILL CONTAINER ***/
+/** wrappers for featured image/title container **/
+div.bill-container {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+div.approved {
+    background-image: url('../img/approved.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 350px;
+    min-height: 350px;
+}
+
+div.not-approved {
+    background-image: url('../img/not-approved.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 350px;
+    min-height: 350px;
+}
+
+div.bill-node {
+    position: absolute;
+    bottom: 0;
+}
+
+div.bill-img-node {
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+}
+
+div.bill-img-container {
+    width:300px;
+    height:300px;
+}
+
+img.bill-img {
+    width: 100%;
+    height: 100%;
+}
+
+/*** BILL TOPICS ***/
+/** background colors by topic **/
+div.communications{
+    background-color: rgba(80,135,68,1);
+}
+
+div.gun-control {
+    background-color: rgba(43,103,56,1);
+}
+
+/*** MAIN CONTAINER ***/
+/** text, main content **/
+div.main-container {
+    margin: 5rem 0 0 0;
+}
+
+/*** SPONSORS CONTAINER ***/
+/** lawmakers sponsoring bills **/
+div.sponsors-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.sponsor-node {
+    margin: 0 2rem 0 0
+}
+
+img.headshot {
+    width: 100%;
+    height: 100%;
+}

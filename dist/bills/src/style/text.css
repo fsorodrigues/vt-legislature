@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/*** TEXT AND COLOR ***/
+body,text{
+}
+
+h1.bill-title {
+}
+
+h2.bill-title {
+    font-size: 3.5rem;
+    font-family: 'Merriweather',serif;
+    color: white;
+}
+
+h3.bill-number {
+    font-size: 2rem;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+}
+
+h4.crosshead {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 1.33rem 0 1rem 0;
+}
+
+p,ul {
+    font-family: 'Merriweather',serif;
+}
+
+div.byline p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0 0 2rem 0;
+}
+div.byline a {
+    color: #222222;
+}
+
+span.author {
+    font-weight: 700;
+}

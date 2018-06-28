@@ -1,0 +1,177 @@
+/* Compiled Less CSS File */
+/* Generated from "theme.css" */
+
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.joosee.com
+ *
+ * Skin Name: Podbean Green Audio
+ *
+ * Copyright (c) 2012-2013 Joosee Ltd
+ *
+ * Author: Benny Tony
+ * Skin Version: 1.0 (jPlayer 2.4.0)
+ * Date: 4th September 2013
+ */
+/*@main-color:                 #8fc31f;
+
+@gray-e8:                      #e8e8e8;
+@gray-f5:                      #f5f5f5;
+@black:                        #000;
+@gray-3:                       #333;
+@gray-6:                       #666;
+@gray-d:                       #ddd;
+@white:                        #fff;
+@Gray:                         #ccc;
+@gray-f6:                      #f6f6f6;
+@gray-ea:                      #eaeaea;
+@gray-ee:                      #eee;
+@gray-e5:                      #e5e5e5;
+
+
+@color1:#3267a3;
+@color2:#60a0c8;
+@color3:#2baf9e;
+@color4:#3ab278;
+@color5:#8bbb4e;
+@color6:#f9a245;
+@color7:#ff6d00;
+@color8:#c73a3a;
+@color9:#956f46;
+@color10:#845c39;
+@color11:#654771;
+@color12:#8a76aa;
+@color13:#d15f7d;
+@color14:#666;
+*/
+/*#fff #101010*/
+/*#f6f6f6*/
+/*#eee*/
+/*#eaeaea*/
+/*#e8e8e8*/
+/*#e5e5e5*/
+/*#ddd*/
+/*#ccc*/
+/*darken(@base-color,76%); #333*/
+/*#000*/
+body .pd_player_wrapper {
+  border-color: #030303;
+  background-color: #1b1b1b;
+  -webkit-box-shadow: inset 0 0 0 1px #3a3a3a;
+  -moz-box-shadow: inset 0 0 0 1px #3a3a3a;
+  -ms-box-shadow: inset 0 0 0 1px #3a3a3a;
+  -o-box-shadow: inset 0 0 0 1px #3a3a3a;
+  box-shadow: inset 0 0 0 1px #3a3a3a;
+}
+body .pd_player_wrapper .hr {
+  border-top-color: #141414;
+  border-bottom-color: #3a3a3a;
+}
+body .pd_player_wrapper .social_panel .inner {
+  background-color: #1b1b1b;
+}
+body .pd_player_wrapper .social_panel .inner .btns a.copy {
+  -webkit-box-shadow: inset 0 0 0 1px #3a3a3a;
+  -moz-box-shadow: inset 0 0 0 1px #3a3a3a;
+  -ms-box-shadow: inset 0 0 0 1px #3a3a3a;
+  -o-box-shadow: inset 0 0 0 1px #3a3a3a;
+  box-shadow: inset 0 0 0 1px #3a3a3a;
+  border-color: #030303;
+  background-color: #101010;
+  background-image: -webkit-gradient(linear, top from(#1c1c1c), to(#101010));
+  background-image: -webkit-linear-gradient(top, #1c1c1c, #101010);
+  background-image: -moz-linear-gradient(top, #1c1c1c, #101010);
+  background-image: -ms-linear-gradient(top, #1c1c1c, #101010);
+  background-image: -o-linear-gradient(top, #1c1c1c, #101010);
+  background-image: linear-gradient(top, #1c1c1c, #101010);
+}
+body .pd_player_wrapper .social_panel .inner .btns a.copy:active,
+body .pd_player_wrapper .social_panel .inner .btns a.copy:hover {
+  background-color: #1c1c1c;
+  background-image: -webkit-gradient(linear, top from(#101010), to(#1c1c1c));
+  background-image: -webkit-linear-gradient(top, #101010, #1c1c1c);
+  background-image: -moz-linear-gradient(top, #101010, #1c1c1c);
+  background-image: -ms-linear-gradient(top, #101010, #1c1c1c);
+  background-image: -o-linear-gradient(top, #101010, #1c1c1c);
+  background-image: linear-gradient(top, #101010, #1c1c1c);
+}
+body .pd_player_wrapper .social_panel .inner .btns input {
+  border-color: #030303;
+}
+body .pd_player_wrapper .social_panel .inner .btns .linkcode .btn_panel {
+  border-left-color: #000000;
+}
+body .pd_player_wrapper .social_panel .inner .btns .embedcode .btn_panel {
+  border-right-color: #000000;
+}
+body .pd_player_wrapper .btn-export {
+  border-color: #1b1b1b;
+}
+body .pd_player_wrapper .btn-export.current {
+  border-color: #0b0b0b;
+  background-color: #3a3a3a;
+  box-shadow: inset 0 0 3px 1px #141414;
+}
+body div.jp-jplayer {
+  background-color: #000000;
+}
+body .jp-no-solution {
+  background-color: #141414;
+}
+body .jp-interface .jp-progress-panel .jp-progress {
+  border-bottom-color: #3a3a3a;
+  background-color: #030303;
+}
+body .jp-interface .jp-progress-panel .jp-progress .jp-seek-bar {
+  background-color: #030303;
+}
+body .jp-interface .jp-progress-panel .jp-progress .jp-seek-bar .jp-play-bar {
+  background-color: #8fc31f;
+}
+body .jp-interface .jp-volume-bar {
+  background-color: #030303;
+  border-bottom-color: #3a3a3a;
+}
+body .jp-interface .jp-volume-bar .jp-volume-bar-value {
+  background-color: #8fc31f;
+}
+a:link,
+a:visited {
+  color: #ffffff;
+}
+a:hover,
+a:active {
+  color: #ffffff;
+}
+.pd_player_wrapper .media_title a:link,
+.pd_player_wrapper .media_title a:visited,
+.pd_player_wrapper .social_panel .inner .btns .title_panel,
+.pd_player_wrapper .social_panel .inner .btns a.copy {
+  color: #ffffff;
+}
+.pd_player_wrapper .btn-export.current {
+  color: #ffffff;
+}
+.pd_player_wrapper .channel_name a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.jp-no-solution,
+.jp-no-solution a {
+  color: #ffffff;
+}
+.jp-interface .jp-controls li a {
+  color: #8fc31f;
+}
+.jp-interface .jp-controls li a.jp-mute,
+.jp-interface .jp-controls li a.jp-unmute,
+.jp-interface .jp-controls li a.jp-volume-max {
+  color: #030303;
+}
+.jp-interface .jp-time-holder {
+  color: #ffffff;
+}
+.pd_player_wrapper .social_panel .inner .iconlist li a span {
+  display: block;
+  background-color: #fff;
+  border-radius: 10px;
+}

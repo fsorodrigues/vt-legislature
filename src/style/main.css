@@ -1,0 +1,139 @@
+body {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+}
+
+/*** NAV BAR ***/
+.header-container {
+    background-color: gainsboro;
+    margin: 0 0 3rem 0;
+}
+
+/*** HERO CONTAINER ***/
+/** piece opener container and children **/
+.main-container {
+    position: relative;
+}
+
+/*** BILL CONTAINER ***/
+/** individual wrappers for bills **/
+div.bill-container {
+    /* border-top: 2pt solid white; */
+    /* margin-bottom: 5px;
+    position: relative; */
+    min-height: 250px;
+}
+
+div.approved {
+    background-image: url('../../dist/img/approved.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 250px;
+    min-height: 250px;
+}
+
+div.not-approved {
+    background-image: url('../../dist/img/not-approved.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 250px;
+    min-height: 250px;
+}
+
+div.bill-node {
+    position: absolute;
+    bottom: 0;
+}
+
+div.bill-img-node {
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+}
+
+div.bill-img-container {
+    width:200px;
+    height:200px;
+}
+
+@media (max-width: 768px) {
+    div.bill-img-node {
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+    }
+
+    div.bill-img-container {
+        width:150px;
+        height:150px;
+    }
+}
+
+img.bill-img {
+    width: 100%;
+    height: 100%;
+}
+
+/*** BILL TOPICS ***/
+/** background colors by topic **/
+div.gun-control {
+    background-color: #2B6738;
+
+}
+
+div.government {
+    background-color: #508744;
+
+}
+
+div.criminal-justice {
+    background-color: #1E634C;
+
+}
+
+div.health-care {
+    background-color: #5D5852;
+
+}
+
+div.education {
+    background-color: #064654;
+
+}
+
+div.energy-environment {
+    background-color: #E8982A;
+
+}
+
+div.business-economy {
+    background-color: #F8CD27;
+
+}
+
+div.other {
+    background-color: #333232;
+
+}
+
+/*** CONTROLLERS ***/
+/** dropdown menus **/
+div.controllers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 3rem 0;
+}
+
+button {
+    width: 125px;
+    height: 65px;
+    margin-right: 2.5%
+}
+
+p.sort {
+    margin: 0 3rem 0 0;
+}

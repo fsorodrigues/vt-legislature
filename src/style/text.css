@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+/*** TEXT AND COLOR ***/
+body,text{
+}
+
+h1.bill-title {
+}
+
+h2.bill-title {
+    font-family: 'Merriweather',serif;
+    color: white;
+}
+
+h3.bill-number {
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+}
+
+h3 {
+}
+
+p {
+}
